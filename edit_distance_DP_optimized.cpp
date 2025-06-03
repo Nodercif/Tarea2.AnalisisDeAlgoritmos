@@ -3,8 +3,6 @@
 #include <string>
 using namespace std;
 
-
-#Sólo necesitamos fila actual y anterior para calcular distancia
 int editDistanceDP(const string& S, const string& T) {
     int n = S.length();
     int m = T.length();
@@ -32,6 +30,3 @@ int editDistanceDP(const string& S, const string& T) {
 
     return prev[m];
 }
-
-
-#*COMPLEJIDAD CAMBIA DE O(n*n) A O(min(n,m))
