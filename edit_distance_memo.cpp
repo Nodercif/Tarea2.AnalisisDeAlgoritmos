@@ -27,10 +27,9 @@ int editDistanceMemo(const string& S, const string& T, int i, int j, vector <vec
         editDistanceMemo(S,T,i-1,j,memo),   //Borrar
         editDistanceMemo(S,T,i,j-1,memo)    //insertar
     );
-
 }
 
-int tamST(const string& S, const string& T){
+int editDistanceMemo(const string& S, const string& T){
 
     int n = S.length(), m = T.length();
 

@@ -5,6 +5,6 @@
 #include <string>
 #include <algorithm>
 
-int tamST(const std::string& S, const std::string& T);
+int editDistanceMemo(const std::string& S, const std::string& T);
 
 #endif
