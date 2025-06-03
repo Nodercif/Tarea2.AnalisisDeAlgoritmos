@@ -1,5 +1,5 @@
-#ifndef EDIT_DISTANCE_RECURSIVE_H
-#define EDIT_DISTANCE_RECURSIVE_H
+#ifndef EDIT_DISTANCE_DP_H
+#define EDIT_DISTANCE_DP_H
 
 #include <iostream>
 #include <algorithm>
