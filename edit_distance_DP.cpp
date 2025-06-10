@@ -3,7 +3,7 @@
 #include <string>
 #include <algorithm>
 
-int editDistanceDeleteInsertDP(const std::string& S, const std::string& T) {
+int editDistanceDP(const std::string& S, const std::string& T) {
     int m = S.length();
     int n = T.length();
     std::vector<std::vector<int>> dp(m + 1, std::vector<int>(n + 1));  // creamos la tabla DP
