@@ -8,7 +8,7 @@ int editDistanceDPOptimized(const string& S, const string& T) {
     int m = T.length();
 
     // Aseguramos que T sea la cadena más corta para usar menos espacio
-    if (m > n) return editDistanceDP(T, S);
+    if (m > n) return editDistanceDPOptimized(T, S);
 
     vector<int> prev(m + 1), curr(m + 1);
 
