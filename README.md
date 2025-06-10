@@ -1,7 +1,3 @@
-Descricpción de cómo ejecutar.
-
-Descricpción de cómo ejecutar.
-
 Este proyecto implementa distintos algoritmos para la implementación del problema Delete Insert Edit Distance.
 
 ## Archivos importantes
