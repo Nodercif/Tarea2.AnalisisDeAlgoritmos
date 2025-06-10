@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int editDistanceDP(const string& S, const string& T) {
+int editDistanceDPO(const string& S, const string& T) {
     int n = S.length();
     int m = T.length();
 
